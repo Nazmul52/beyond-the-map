@@ -381,7 +381,6 @@ li {
 }
 
 .deals-section > .deals-image {
-  background: url("/images/Group 39.png"), lightgray 50% / cover no-repeat;
   width: 1170px;
   height: 500px;
   border-radius: 16px;
@@ -390,9 +389,16 @@ li {
   margin-bottom: 20px;
 }
 
-.deal-image-2::before {
+.deals-section > .deal-image-1 {
   background: url("/images/Group 39.png"), lightgray 50% / cover no-repeat;
-  transform: scale(-1);
+}
+
+.deals-section > .deal-image-2 {
+  background: url("/images/Bandarban.jpeg"), lightgray 50% / cover no-repeat;
+}
+
+.deals-section > .deal-image-3 {
+  background: url("/images/coxsbazar.jpg"), lightgray 50% / cover no-repeat;
 }
 
 .deals-section > .deals-image > .box {
@@ -1013,13 +1019,24 @@ footer > .footer-content > .footer-bottom {
   }
 
   .deals-section > .deals-image {
-    background: url("/images/Group 39.png"), lightgray 50% / cover no-repeat;
     width: 375px;
     height: 500px;
     border-radius: 16px;
     margin: auto;
     position: relative;
     margin-bottom: 20px;
+  }
+
+  .deals-section > .deal-image-1 {
+    background: url("/images/Group 39.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .deals-section > .deal-image-2 {
+    background: url("/images/Bandarban.jpeg"), lightgray 50% / cover no-repeat;
+  }
+
+  .deals-section > .deal-image-3 {
+    background: url("/images/coxsbazar.jpg"), lightgray 50% / cover no-repeat;
   }
 
   .deals-section > .deals-image > .box {
