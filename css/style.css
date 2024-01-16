@@ -2,6 +2,7 @@ body {
   font-family: "Mulish", sans-serif;
   margin: 40px;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -23,6 +24,7 @@ header {
 .nav-logo-title > .web-logo {
   display: block;
 }
+
 .nav-logo-title > .mobile-logo {
   display: none;
 }
@@ -41,10 +43,12 @@ header {
   display: flex;
   align-items: center;
 }
+
 .nav-list-items > label,
 .fa-close {
   display: none;
 }
+
 .nav-list-items > ul {
   list-style: none;
   margin: 0;
@@ -235,6 +239,7 @@ li {
 .column {
   margin-top: 20px;
 }
+
 .column > .row > .item-1,
 .item-2,
 .item-3,
@@ -281,6 +286,7 @@ li {
   width: 1170px;
   margin: auto;
 }
+
 .why-choose > .choose-content {
   text-align: center;
   margin-bottom: 48px;
@@ -291,6 +297,7 @@ li {
   font-size: 40px;
   margin-bottom: 24px;
 }
+
 .why-choose > .choose-content > p {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
@@ -298,6 +305,7 @@ li {
   width: 643px;
   margin: auto;
 }
+
 .why-choose > .choose-card {
   display: grid;
   grid-template-columns: auto auto;
@@ -438,6 +446,7 @@ br {
   color: #ff5400;
   font-size: 20px;
 }
+
 .deals-section > .deals-image > .box > button {
   width: 150px;
   height: 52px;
@@ -448,6 +457,60 @@ br {
   text-align: center;
   font-size: 20px;
   cursor: pointer;
+}
+
+/* Place Section CSS */
+.place {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.place > .place-content {
+  width: 532px;
+}
+
+.place > .place-content > h1 {
+  width: 448px;
+  color: #131318;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.place > .place-content > p {
+  color: #5a5a5d;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}
+
+.place > .place-content > ul {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+
+.place > .place-content > button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0px solid;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.place-video > iframe {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    #131318 -31.96%,
+    rgba(19, 19, 24, 0) 100%
+  );
 }
 
 /* Newsletter Section CSS */
@@ -627,6 +690,7 @@ footer > .footer-content > .footer-bottom {
     margin: auto;
     width: 375px;
   }
+
   .nav-logo-title {
     display: flex;
     gap: 10px;
@@ -637,9 +701,11 @@ footer > .footer-content > .footer-bottom {
     width: 28px;
     height: 56.008px;
   }
+
   .nav-logo-title > .web-logo {
     display: none;
   }
+
   .nav-logo-title > .mobile-logo {
     display: block;
   }
@@ -680,6 +746,7 @@ footer > .footer-content > .footer-bottom {
   nav-list-items > .menuItem {
     display: block;
   }
+
   nav-list-items > .menuItem > li {
     display: block;
     width: 100%;
@@ -765,12 +832,12 @@ footer > .footer-content > .footer-bottom {
   }
 
   /* Destination CSS */
-
   .destination {
     width: 375px;
     margin: auto;
     margin-top: 100px;
   }
+
   .destination > .destination-content {
     margin: auto;
     text-align: center;
@@ -782,9 +849,11 @@ footer > .footer-content > .footer-bottom {
     font-family: Mulish;
     margin-bottom: 16px;
   }
+
   .destination > .destination-content > p {
     font-size: 14px;
   }
+
   .destination-img {
     width: 375px;
     height: 176px;
@@ -815,6 +884,7 @@ footer > .footer-content > .footer-bottom {
     width: 375px;
     margin: auto;
   }
+
   .why-choose > .choose-content {
     text-align: center;
     margin-bottom: 48px;
@@ -825,11 +895,13 @@ footer > .footer-content > .footer-bottom {
     font-size: 20px;
     margin-bottom: 16px;
   }
+
   .why-choose > .choose-content > p {
     font-size: 14px;
     width: 309px;
     margin: auto;
   }
+
   .why-choose > .choose-card {
     display: flex;
     flex-direction: column;
@@ -842,6 +914,7 @@ footer > .footer-content > .footer-bottom {
     border-radius: 16px;
     padding: 8px;
   }
+
   .why-choose > .choose-card > .choose-box-3 {
     position: static;
   }
@@ -875,7 +948,7 @@ footer > .footer-content > .footer-bottom {
 
   .deals-section > .deals-image {
     background: url("/images/Group 39.png"), lightgray 50% / cover no-repeat;
-    width: 335px;
+    width: 375px;
     height: 500px;
     border-radius: 16px;
     margin: auto;
@@ -886,17 +959,12 @@ footer > .footer-content > .footer-bottom {
   .deals-section > .deals-image > .box {
     width: 270px;
     height: 303px;
-
     padding: 16px;
     margin-right: 40px;
     position: absolute;
     right: 0px;
-    left: 14px;
     top: 140px;
-  }
-
-  .deals-section > .deals-image > .box-2 {
-    left: 14px;
+    left: 35px;
   }
 
   .deals-section > .deals-image > .box > .top-content {
@@ -928,10 +996,51 @@ footer > .footer-content > .footer-bottom {
   .deals-section > .deals-image > .box > h3 {
     font-size: 16px;
   }
+
   .deals-section > .deals-image > .box > button {
     width: 120px;
     height: 32px;
     font-size: 20px;
+  }
+
+  /* Place Section CSS */
+  .place {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin-top: 20px;
+  }
+
+  .place > .place-content {
+    width: 375px;
+  }
+
+  .place > .place-content > h1 {
+    width: 248px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .place > .place-content > p {
+    color: #5a5a5d;
+    font-size: 14px;
+    line-height: 24px; /* 162.5% */
+  }
+
+  .place > .place-content > ul {
+    font-size: 14px;
+    line-height: 24px; /* 162.5% */
+  }
+
+  .place > .place-content > button {
+    width: 174px;
+    height: 52px;
+  }
+
+  .place-video > iframe {
+    width: 375px;
+    height: 200px;
+    margin-top: 20px;
   }
 
   /* Newsletter Section CSS */
@@ -940,7 +1049,7 @@ footer > .footer-content > .footer-bottom {
     flex-direction: column;
     width: 375px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .newsletter > .form {
@@ -989,9 +1098,11 @@ footer > .footer-content > .footer-bottom {
   .newsletter-img > div > h3 {
     font-size: 15.854px;
   }
+
   .newsletter-img > div > h1 {
     font-size: 21.138px;
   }
+
   .newsletter > .form > .form-content {
     width: 342px;
   }
