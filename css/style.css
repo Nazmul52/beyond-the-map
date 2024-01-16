@@ -1117,6 +1117,19 @@ footer > .footer-content > .footer-bottom {
     padding-top: 100px;
   }
 
+  footer > .footer-content > .footer-logo-title {
+    gap: 10px;
+  }
+
+  footer > .footer-content > .footer-logo-title > img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+
+  footer > .footer-content > .footer-logo-title > h1 {
+    font-size: 21px;
+  }
+
   footer > .footer-content > p {
     width: 287px;
   }
