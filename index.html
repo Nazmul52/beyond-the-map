@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beyond the Map | Programming Hero</title>
+    <!-- Adding Google Font CSS Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap" rel="stylesheet">
+    <!-- Adding Google Font CSS Library End -->
+
+    <!-- Adding Font Awesome CSS Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Adding Font Awesome CSS Library End -->
 
     <!-- External CSS Link -->
     <link rel="stylesheet" href="css/style.css" />
@@ -13,11 +25,15 @@
     <!-- Header Section Start -->
     <header>
       <div class="nav-logo-title">
-        <img src="/images/Group 40071 (2).png" alt="Traveling" />
+        <img src="/images/Group 40071 (2).png" alt="Traveling"  class="web-logo"/>
+        <img src="/images/OBJECTS.svg" alt="Traveling Mobile Logo" class="mobile-logo">
         <h1>Beyond the <span>Map</span></h1>
       </div>
       <div class="nav-list-items">
-        <ul>
+        <label for="hamburg">&#9776</label>
+        <input type="checkbox" hidden id="hamburg" />
+        
+        <ul class="menuItem">
           <li><a href="#">Home</a></li>
           <li><a href="#">Packages</a></li>
           <li><a href="#">Testimonial</a></li>
@@ -44,16 +60,236 @@
             <input type="text" placeholder="Where go" />
             <select name="" id="">
               <option value="" selected>When</option>
+              <option value="" selected>Saturday</option>
+              <option value="" selected>Sunday</option>
+              <option value="" selected>Monday</option>
+              <option value="" selected>Tuesday</option>
+              <option value="" selected>Wednesday</option>
+              <option value="" selected>Thursday</option>
+              <option value="" selected>Friday</option>
             </select>
             <select name="" id="">
               <option value="" selected>Select type</option>
+              <option value="" selected>Hotel</option>
+              <option value="" selected>Flight</option>
+              <option value="" selected>Place</option>
             </select>
 
-            <button><i></i>Find Now</button>
+            <button type="submit">
+              <i class="fa fa-search"></i>
+              Find Now
+            </button>
           </div>
         </div>
       </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- Popular Tours Section Start -->
+    <section class="popular-tours">
+      <div class="tours-content">
+        <h1>Our Popular Tours</h1>
+        <p>
+          Embark on a journey of a lifetime with our curated selection of
+          popular tours, each crafted to immerse you in the richness of diverse
+          cultures and breathtaking landscapes.
+        </p>
+        <ul>
+          <li>
+            Uncover the charm of Europe as you explore iconic cities, medieval
+            castles, and savor the culinary delights of this continent
+          </li>
+          <li>
+            Immerse yourself in the vibrant tapestry of Asia, from ancient
+            temples in Cambodia to the futuristic skyline of Tokyo.
+          </li>
+          <li>
+            Witness the untamed beauty of Africa on a safari, where the
+            landscapes teem with wildlife and every sunset is a masterpiece.
+          </li>
+        </ul>
+        <p>
+          Explore the wild wonders of African safaris, dance through South
+          American rhythms, witness the mystical Northern Lights in Scandinavia,
+          and unwind in the idyllic paradises of Australia and the Maldives.
+          Discover your dream destination today!
+        </p>
+        <button type="submit">Read More</button>
+      </div>
+      <div class="tour-photo">
+        <img src="/images/Rectangle 4.png" alt="Popular Tours" />
+      </div>
+    </section>
+    <!-- Popular Tours Section End -->
+
+    <!-- Destination Section Start -->
+    <section class="destination">
+      <div class="destination-content">
+        <h1>Choose Your Destination</h1>
+        <p>
+          Select your dream destination with our diverse range of popular tours.
+          From cultural riches to natural wonders, your adventure awaits.
+        </p>
+      </div>
+      <div class="column">
+        <div class="row">
+          <div class="item-1">
+            <img
+              src="/images/Rectangle 5.png"
+              alt="Maldives"
+              class="destination-img"
+            />
+            <h1 class="img-title">Maldives</h1>
+          </div>
+          <div class="item-2">
+            <img
+              src="/images/Rectangle 8.png"
+              alt="Indonesia"
+              class="destination-img"
+            />
+            <h1 class="img-title">Indonesia</h1>
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="item-3">
+            <img
+              src="/images/Rectangle 6.png"
+              alt="Srilanka"
+              class="destination-img"
+            />
+            <h1 class="img-title">Srilanka</h1>
+          </div>
+          <div class="item-4">
+            <img
+              src="images/Rectangle 7.png"
+              alt="North America"
+              class="destination-img"
+            />
+            <h1 class="img-title">North America</h1>
+          </div>
+          <div class="item-5">
+            <img
+              src="/images/Rectangle 9.png"
+              alt="Kashmir"
+              class="destination-img"
+            />
+            <h1 class="img-title">Kashmir</h1>
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="item-6">
+            <img
+              src="/images/Rectangle 11.png"
+              alt="Bangladesh"
+              class="destination-img"
+            />
+            <h1 class="img-title">Bangladesh</h1>
+          </div>
+          <div class="item-7">
+            <img
+              src="/images/Rectangle 10.png"
+              alt="Bandarban"
+              class="destination-img"
+            />
+            <h1 class="img-title">Bandarban</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Destination Section End -->
+
+    <!-- Why Choose Section Start -->
+    <section class="why-choose">
+      <div class="choose-content">
+        <h1>Why Choose Us</h1>
+        <p>
+          Choose us for a seamless travel experience. Our commitment to
+          excellence ensures personalized service, curated experiences, and
+          unmatched reliability. Elevate your journey with us today.
+        </p>
+      </div>
+      <div class="choose-card">
+        <div class="choose-box-1">
+          <img src="/images/hotel 1.png" alt="Hotel" />
+          <h1>Handpicked Hotel</h1>
+          <p>
+            Discover handpicked hotels for an exquisite stay. Immerse yourself
+            in luxury, comfort, and exceptional service, making your journey
+            truly memorable.
+          </p>
+        </div>
+        <div class="choose-box-2">
+          <img src="/images/map 1.png" alt="Hotel" />
+          <h1>World Class Service</h1>
+          <p>
+            Experience unparalleled world-class service. Elevate your journey
+            with meticulous attention to detail, personalized care, and a
+            commitment to excellence.
+          </p>
+        </div>
+        <div class="choose-box-3">
+          <img src="/images/price-tag 1.png" alt="Hotel" />
+          <h1>Best Price Guarantee</h1>
+          <p>
+            Enjoy peace of mind with our Best Price Guarantee. Unbeatable
+            prices, quality stays—your perfect journey at the best value awaits.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose Section End -->
+
+    <!-- Newsletter Section Start -->
+    <section class="newsletter">
+      <div class="form">
+        <div class="form-content">
+          <h1>Newsletter</h1>
+          <p>Get your daily dose of travel news & tips. Sign up today!</p>
+        </div>
+
+        <input type="text" placeholder="Enter your name" />
+        <input type="text" placeholder="Enter your email" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <div class="newsletter-img">
+        <img src="/images/Rectangle 8 (1).png" alt="Newsletter" />
+        <div>
+          <h3>Travel.com</h3>
+          <h1>Save up to 70%</h1>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo-title">
+          <img
+            src="/images/Group 40071 (2).png"
+            alt="Traveling"
+            class="footer-img"
+          />
+          <h1 class="footer-title">Beyond the <span>Map</span></h1>
+        </div>
+        <p>
+          Discover your next adventure on our travel website. Explore curated
+          destinations, find handpicked accommodations, and plan unforgettable
+          journeys with ease. Your dream vacation begins here.
+        </p>
+
+        <div class="footer-icon">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-github"></i>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>2024, All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
   </body>
 </html>
