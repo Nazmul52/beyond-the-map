@@ -1251,6 +1251,10 @@ footer > .footer-content > .footer-bottom {
     padding-top: 30px;
   }
 
+  footer > .footer-content > .footer-icon {
+    margin: 18px 0px;
+  }
+
   footer > .footer-content > .footer-logo-title {
     gap: 10px;
   }
